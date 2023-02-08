@@ -17,7 +17,6 @@ export const Button = styled.button`
 
   &:hover {
     background-color: ${props => {
-      console.log(props);
       switch (props.id) {
         case 'good':
           return 'green';
@@ -34,7 +33,6 @@ export const Button = styled.button`
     }};
 
     box-shadow: ${props => {
-      console.log(props);
       switch (props.id) {
         case 'good':
           return '0px 0px 10px 5px rgba(0,255,0,1)';
